@@ -1,0 +1,138 @@
+*, a {
+    font-family: "微软雅黑";
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    color: #000;
+}
+body{
+    width: 100%;
+    height: 100%;
+    background-image: url("../imges/bag.jpg");
+    background-size: cover; /* 调整背景图像大小以覆盖整个区域 */
+    background-position: center; /* 将背景图像居中 */
+    background-repeat: no-repeat; /* 防止背景图像重复 */
+}
+.logo{
+    width: 100%;
+    height: 220px;
+    padding-top: 90px;
+}
+.logo h1{
+    font-size: 100px;
+    width: 600px;
+    margin: auto;
+    color: #fff;
+}
+.logo h2{
+    font-size: 30px;
+    width: 350px;
+    height: 50px;
+    margin:auto;
+    color: #fff;
+}
+.logo h3{
+    width: 290px;
+    margin:auto;
+    color: #fff;
+}
+.Fhesaosh{
+    padding-top: 10px;
+    width: 1200px;
+    height: 1000px;
+    margin: auto;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.4);
+}
+.Guan{
+    float: left;
+    width: 14%;
+    height: 100%;
+    padding-left: 5px;
+    padding-top: 5px;
+}
+.guan_KFY{
+    padding-top: 5px;
+    height: 90%;
+    width: 100%;
+    float: left;
+
+}
+.control {
+    cursor: pointer;
+    padding: 13px 40px;
+    margin: 0px;
+    color: #303133;
+    border: none;
+    display: inline-block;
+    border-right: 2px solid rgba(0, 0, 0, 0.1);
+}
+.control span:hover {
+    color: #678ad4;
+}
+.control.active {
+    border-right: 2px solid rgb(68, 0, 255);
+    transition: all 0.5s ease; /* 滑动动画效果 */
+}
+#control5{
+    padding: 13px 48.2px;
+}
+.content {
+    float: left;
+    width: 84%;
+    height: 100%;
+    margin: auto;
+    padding: 15px;
+    box-sizing: border-box;
+    display: none; /* 默认隐藏内容 */
+}
+.content.active {
+    display: block; /* 显示激活的内容 */
+}
+.content h1{
+    float: left;
+    width: 100%;
+    margin-top: 10px;
+    border-bottom: 2px rgba(0, 0, 0, 0.2) solid;
+}
+.content_lst{
+    float: left;
+    margin-left: 55px;
+    margin-top: 10px;
+    width: 400px;
+    height: 110px;
+    background-color: rgb(255, 255, 255, 0.4);
+    border-radius: 8px;
+    border: 1px solid #0000004f;
+}
+.content_lst a img{
+    margin-left: 10px;
+    margin-top: 2px;
+    float: left;
+}
+.content_lst a span{
+    float: left;
+    width: 100%;
+    font-size: 15px;
+}
+.content_lst:hover{
+    background-color: #a8adb83b;
+}
+.content_lst a span p{
+    float: left;
+    width: 10px;
+    height: 20px;
+}
+footer{
+    width: 100%;
+}
+footer p{
+    margin: auto;
+    width: 320px;
+    color: #fff;
+}
+#QQU{
+    width: 600px;
+    color: #ff0000;
+}
